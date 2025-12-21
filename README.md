@@ -5,16 +5,16 @@
 **Section:** 1  
 **Course:** CENG 301 - Operating Systems  
 
-## Project Overview
+## 1. Project Overview
 This is a modular CPU Scheduling Simulator built in Python 3. It simulates how different scheduling algorithms manage processes and calculates important performance metrics like waiting time, turnaround time, and response time .
 
-## Requirements
+## 2. Requirements
 * **Python Version:** Python 3.x
 * **Libraries:** You need the `matplotlib` library for the comparison graphs.
   ```bash
   pip install matplotlib
 
-## Project Structure
+## 3. Project Structure
 I organized the project in a modular way to keep the code clean and easy to follow :
 
 * **algorithms/**: Contains the implementation for all six required scheduling algorithms (FCFS, SJF, SRTF, RR, and Priority NP/P).
@@ -36,7 +36,7 @@ python scheduler.py --input processes.txt --algo RR --quantum 4
 If you want to run every algorithm at once, see the comparison table, and generate the graphs in the graphs/ folder, run this :
 python compare.py
 
-## Algorithm Descriptions
+## 5. Algorithm Descriptions
 I implemented the following six CPU scheduling algorithms as required by the project:
 
 1. **FCFS (First-Come First-Served):** This is the simplest one where processes are handled in the order they arrive. It is non-preemptive.
