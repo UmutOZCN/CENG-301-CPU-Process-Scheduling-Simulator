@@ -13,6 +13,7 @@ This is a modular CPU Scheduling Simulator built in Python 3. It simulates how d
 * **Libraries:** You need the `matplotlib` library for the comparison graphs.
   ```bash
   pip install matplotlib
+   ```
 
 ## 3. Project Structure
 I organized the project in a modular way to keep the code clean and easy to follow :
@@ -31,10 +32,15 @@ You can run the simulator through the terminal.
 ### 1. Run a single algorithm:
 To see the results and Gantt chart for one specific algorithm, use `scheduler.py` with these arguments:
 Example: Running Round Robin with a quantum of 4 
+```bash
 python scheduler.py --input processes.txt --algo RR --quantum 4
+```
+
 ### 2. Run the comparison tool:
-If you want to run every algorithm at once, see the comparison table, and generate the graphs in the graphs/ folder, run this :
+If you want to run every algorithm at once, see the comparison table, and generate the graphs in the graphs/ folder, run this:
+```bash
 python compare.py
+```
 
 ## 5. Algorithm Descriptions
 I implemented the following six CPU scheduling algorithms as required by the project:
